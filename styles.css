@@ -1,0 +1,129 @@
+
+/* General Chatbot Styling */
+.chatbot-container {
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.chatbot {
+  max-width: 400px; /* Maximum width of the chatbot container */
+  margin: auto; /* Center the chatbot horizontally */
+  border: 3px solid #000000; /* Dark black border around the chatbot */
+  border-radius: 50px; /* Rounded corners for a softer look */
+  font-family: Arial, sans-serif; /* Font style for the chatbot */
+  overflow: hidden; /* Hide any overflow content */
+}
+
+/* Header Styling */
+.chat-header {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  padding: 12px; /* Padding inside the header */
+  background-color: #0066cc; /* Header background color */
+  color: #fff; /* Header text color */
+}
+
+.profile-pic {
+  width: 30px; /* Width of the profile picture */
+  height: 30px; /* Height of the profile picture */
+  border-radius: 20%; /* Make the profile picture circular */
+  margin-right: 15px; /* Space between profile picture and text */
+  margin-left: 12px;
+}
+
+.status {
+  font-size: 12px; /* Font size for the status text */
+  color: #69f53b; /* Status text color */
+  margin-left: auto; /* Push status text to the right */
+}
+
+.status2 {
+  font-size: 12px; /* Font size for the status text */
+  color: #ffffff; /* Status text color */
+  margin-left: 200px; /* Push status text to the right */
+}
+
+/* Body Styling */
+.chat-body {
+  padding: 20px; /* Padding inside the chat body */
+  height: 710px; /* Fixed height for the chat body */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  background-color: #f9f9f9; /* Background color for the chat body #f9f9f9*/ 
+}
+
+.bot-message, .user-message {
+  padding: 6px; /* Padding for message bubbles */
+  margin-bottom: 8px; /* Space between messages */
+  border-radius: 15px; /* Rounded corners for message bubbles */
+  max-width: 75%; /* Maximum width of the messages */
+}
+
+.bot-message {
+  background-color: #e0e0e0; /* Background color for bot messages */
+  color: #333; /* Text color for bot messages */
+}
+
+.user-message {
+  background-color: #0066cc; /* Background color for user messages */
+  color: #fff; /* Text color for user messages */
+  margin-left: auto; /* Align user messages to the right */
+  text-align: right; /* Align text in user messages to the right */
+  width: fit-content; /* Adjust width to the content size */  
+}
+
+/* Quick Response Buttons */
+.response-buttons {
+  display: flex; /* Use flexbox for button layout */
+  flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+  gap: 10px; /* Space between buttons */
+  margin: 10px 0; /* Space above and below the buttons */
+}
+
+.response-buttons button {
+  background-color: #0066cc; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove border from buttons */
+  padding: 8px 12px; /* Padding inside buttons */
+  border-radius: 15px; /* Rounded corners for buttons */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.response-buttons button:hover {
+  background-color: #0052a3; /* Darker shade on hover */
+}
+
+/* Footer Styling */
+.chat-footer {
+  display: flex; /* Use flexbox for footer layout */
+  padding: 10px; /* Padding inside the footer */
+  background-color: #f1f1f1; /* Footer background color */
+}
+
+#user-input {
+  flex: 1; /* Allow user input to take up available space */
+  padding: 8px; /* Padding inside the input field */
+  border: 1px solid #ddd; /* Light gray border around input field */
+  border-radius: 15px; /* Rounded corners for input field */
+  margin-right: 20px; /* Space between input field and button */
+  margin-left: 20px;
+}
+
+button {
+  background-color: #0066cc; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove border from buttons */
+  padding: 3px 6px; /* Padding inside buttons */
+  border-radius: 15px; /* Rounded corners for buttons */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  margin-bottom: 1px;
+  margin-right: 20px;
+}
+
+button:hover {
+  /* (hover effect not specified; consider adding it) */
+  background-color: #0052a3; /* Darker shade on hover */
+}
