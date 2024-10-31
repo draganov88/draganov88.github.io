@@ -4,13 +4,12 @@
     display: flex; /* Enable flexbox */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    height: 100vh; /* Full viewport height */
+    height: 99.8vh; /* Full viewport height */
 }
 
 .chatbot {
-  max-width: 400px; /* Maximum width of the chatbot container */
-  margin: auto; /* Center the chatbot horizontally */
-  border: 3px solid #000000; /* Dark black border around the chatbot */
+  max-width: 390px; /* Maximum width of the chatbot container */
+  margin: auto; /* Center the chatbot horizontally */  
   border-radius: 50px; /* Rounded corners for a softer look */
   font-family: Arial, sans-serif; /* Font style for the chatbot */
   overflow: hidden; /* Hide any overflow content */
@@ -48,7 +47,7 @@
 /* Body Styling */
 .chat-body {
   padding: 20px; /* Padding inside the chat body */
-  height: 710px; /* Fixed height for the chat body */
+  height: 680px; /* Fixed height for the chat body */
   overflow-y: auto; /* Enable vertical scrolling if content overflows */
   background-color: #f9f9f9; /* Background color for the chat body #f9f9f9*/ 
 }
