@@ -4,12 +4,11 @@
     display: flex; /* Enable flexbox */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    height: 100vh; /* Full viewport height */
+    height: 99.5vh; /* Full viewport height */
 }
 
 .chatbot {
-  max-width: 300px; /* Maximum width of the chatbot container */
-  margin: auto; /* Center the chatbot horizontally */  
+  max-width: 300px; /* Maximum width of the chatbot container */ 
   border-radius: 36px; /* Rounded corners for a softer look */
   font-family: Arial, sans-serif; /* Font style for the chatbot */
   overflow: hidden; /* Hide any overflow content */
