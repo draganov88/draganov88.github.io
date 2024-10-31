@@ -34,6 +34,16 @@ const responses = {
 // Track if "Yes, please!" has been clicked
 let yesPleaseClicked = false;
 
+// Function to prevent zooming on mobile
+function preventZoom() {
+  document.addEventListener('gesturestart', function (e) {
+    e.preventDefault();
+  });
+}
+
+// Call the preventZoom function to enable it
+preventZoom();
+
 // Function to calculate the Levenshtein distance
 function levenshteinDistance(a, b) {
   const matrix = [];
