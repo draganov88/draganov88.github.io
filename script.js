@@ -3,7 +3,7 @@ const all_questions_and_answers = {
   "What is Dynamo Data Automation, and how can it impact client data management?": "Dynamo Data Automation is one of Dynamo’s business product lines: we automate data collection, processing, and integration specifically for the financial industry, making it easier and faster to manage large data sets with accuracy and reliability.",
   "How big is Dynamo’s team?.": "Nearly 500 people globally. We’re more than 210 people in Sofia and 80 people in DDA in particular. Want to get to know us better? <a href='https://www.dynamosoftware.com/about/'>Our Story</a>",
   "What are the skills a Dynamo Data Automation user or developer can benefit from?": "Knowledge of data management, some experience with APIs, data analytics, and an understanding of financial data systems are beneficial. Programming skills in Python or SQL can be a plus for advanced customization.",
-  "What’s your work model?": "We’re working hybrid, meaning you will have some flexibility to combine work with university studies.",
+  "What’s our work model?": "We’re working hybrid, meaning you will have some flexibility to combine work with university studies.",
   "What career paths might benefit from experience with Dynamo Data Automation?": "Roles in data engineering, financial analysis, project and product management. Don’t miss our Profiling game and check out which team is your best personality match.",
   "What are some real-world examples of problems Dynamo Data Automation solves?": "It helps with aggregating performance metrics, managing compliance data, and tracking investor information efficiently.",
   "What makes the Dynamo Data Automation team unique?": "Our people, you can meet some of them today."
