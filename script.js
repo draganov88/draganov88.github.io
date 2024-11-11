@@ -1,22 +1,12 @@
 // Define bot responses for various questions
 const all_questions_and_answers = {
-  "How are you?": "I'm just a bot, but I'm here and ready to help you!",
-  "What’s your name?": "I’m Alex, here to assist you with anything you need.",
-  "What can you do?": "I can answer questions, provide information, and help you with tasks. Just ask!",
-  "Tell me a joke": "Why did the developer go broke? Because they used up all their cache!",
-  "Goodbye": "Goodbye! Let me know if you need help again!",
-  "What is dynamo software?": "Dynamo Software is a company that provides cloud-based solutions for managing investments.",
-  "What is javascript?": "JavaScript is a programming language commonly used for web development.",
-  "How does automation work?": "Automation uses scripts or tools to perform tasks with minimal human intervention.",
-  "What is ai?": "AI, or artificial intelligence, is a field focused on creating systems that can perform tasks typically requiring human intelligence.",
-  "Can you help with scheduling?": "I can offer general advice or information about scheduling. What do you need help with?",
-  "How do I improve english?": "Practice reading, writing, speaking, and listening every day. Using apps like Duolingo can also help.",
-  "What is a chatbot?": "A chatbot is a program designed to simulate conversation with human users.",
-  "How to learn programming?": "Start with a beginner-friendly language like Python, and practice through tutorials and projects.",
-  "Who created you?": "I was developed by Alex Draganov.",
-  "What is sql?": "SQL stands for Structured Query Language, used for managing and querying databases.",
-  "How do I write css?": "CSS is a language for styling HTML content on the web. You can define styles in a .css file and link it to your HTML.",
-  "Tell me about dynamo software": "Dynamo Software ..."
+  "What is Dynamo Data Automation, and how can it impact client data management?": "Dynamo Data Automation is one of Dynamo’s business product lines: we automate data collection, processing, and integration specifically for the financial industry, making it easier and faster to manage large data sets with accuracy and reliability.",
+  "How big is Dynamo’s team?.": "Nearly 500 people globally. We’re more than 210 people in Sofia and 80 people in DDA in particular. Want to get to know us better? <a href='https://www.dynamosoftware.com/about/'>Our Story</a>",
+  "What are the skills a Dynamo Data Automation user or developer can benefit from?": "Knowledge of data management, some experience with APIs, data analytics, and an understanding of financial data systems are beneficial. Programming skills in Python or SQL can be a plus for advanced customization.",
+  "What’s your work model?": "We’re working hybrid, meaning you will have some flexibility to combine work with university studies.",
+  "What career paths might benefit from experience with Dynamo Data Automation?": "Roles in data engineering, financial analysis, project and product management. Don’t miss our Profiling game and check out which team is your best personality match.",
+  "What are some real-world examples of problems Dynamo Data Automation solves?": "It helps with aggregating performance metrics, managing compliance data, and tracking investor information efficiently.",
+  "What makes the Dynamo Data Automation team unique?": "Our people, you can meet some of them today."
 };
 
 // Convert all_questions_and_answers keys to a formatted list of buttons
@@ -26,7 +16,7 @@ const questionsList = Object.keys(all_questions_and_answers)
 
 // Define bot default responses 
 const responses = {
-  "hello": "Hi there! How can I assist you today?",
+  "hello": "Hi there! I’m Alex, Transformation Lead part of Dynamo Data Automation team. Do you want to learn more about Dynamo today?",
   "yes, please!": `Great! Below you can find the questions I can answer:<br><br>${questionsList}`,
   "no, thanks.": "No problem! Let me know when you would like to learn more about Dynamo.",
 };
