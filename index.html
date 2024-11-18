@@ -10,19 +10,53 @@
             background-position: center; /* Centers the image */
             background-repeat: no-repeat; /* Prevents the image from repeating */
             height: 90vh; /* Full height of the viewport */
-            
         }
 		html {
 			overflow: hidden;
 		}
-    </style>
+        /* Style for the pop-up container */
+        .popup {
+            display: none; /* Hidden by default */
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #dae0e6;
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+			border-radius: 15px; /* Rounded edges */
+        }
+        .popup a {
+            color: blue;
+            text-decoration: underline;
+        }
+        .popup-button {
+            background-color: #0066cc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+  </style>
   <title>Dynamo ChatBot Alex</title>
   <link rel="stylesheet" href="styles.css">
   <script>
-        document.addEventListener('gesturestart', function (e) {
-            e.preventDefault();
-        });
-    </script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Show pop-up when the page is opened
+        setTimeout(function() {
+            document.getElementById('popup').style.display = 'block';
+        }, 500); // Delay of 0.5 seconds to show pop-up after page load
+    });
+
+    // Function to close the pop-up
+    function closePopup() {
+        document.getElementById('popup').style.display = 'none';
+    }
+  </script>
 </head>
 <body>
 <div class="chatbot-container">	
@@ -50,6 +84,13 @@
     </div>
   </div>
 </div>
-  <script src="script.js"></script>
+
+<!-- Pop-up message -->
+<div id="popup" class="popup">
+    <p>Welcome to the Dynamo ChatBot! <br>We will be inviting 5 people we met today to come and meet the team in the office. Join the raffle and you can be among thе winners! <a href="https://forms.office.com/e/fJjP2bF8Z5" target="_blank"><br>Join</a>.</p>
+    <button class="popup-button" onclick="closePopup()">Close</button>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
